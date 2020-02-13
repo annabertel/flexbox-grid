@@ -97,33 +97,35 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background: url('../img/iceburg.jpg') no-repeat;
+  background-size: cover;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
 .wrapper {
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .div-1, .div-2, .div-3 {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.2em;
+  background-color: #002a8e;
+  height: 180px;
   display: flex;
-  width: 30%;
+  width: 25%;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 
